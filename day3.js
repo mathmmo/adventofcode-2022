@@ -330,7 +330,7 @@ ruckSacks.map(sack => {
     })
     dupItemCount += itemPriority.indexOf(dupItem) + 1    
 })
-console.log(dupItemCount)
+console.log(`${dupItemCount} 👌`)
 
 //Part 2
 let groupSacks = []
@@ -364,4 +364,4 @@ groupSacks.map(group => {
     badgesSum += itemPriority.indexOf(groupBedge) + 1
 })
 
-console.log(badgesSum)
+console.log(`${badgesSum} 👌`)
